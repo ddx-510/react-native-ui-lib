@@ -201,4 +201,10 @@ export function isSameMonth(d1: number | DateObjectWithOptionalDay, d2: number |
   return false;
 }
 
+export function getMonthDifference(d1: number, d2: number) {
+  'worklet';
+  return Math.abs(d1 - d2) / (WEEK_IN_MS * 4);
+  // return Math.abs(getDateObject(d1).month - getDateObject(d2).month);
+}
+
 export const _forTesting = {getFirstDayInTheYear}; // exporting private functions for testing only

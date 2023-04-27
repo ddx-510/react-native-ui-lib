@@ -81,7 +81,7 @@ export interface MonthProps {
 
 export interface CalendarItemProps {
   weekNumber?: number;
-  month?: number;
+  month: number;
   year: number;
 }
 
