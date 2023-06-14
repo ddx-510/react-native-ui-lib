@@ -27,7 +27,8 @@
       "hooks": ["./src/hooks"],
       "optionalDeps": ["./src/optionalDependencies"],
       "services": ["./src/services"],
-      "style": ["./src/style"]
+      "style": ["./src/style"],
+      "typings": ["./src/typings"]
     }
   },
   "include": ["src/**/*", "typings/**/*", "demo/**/*", "lib/components/**/*"] ,

@@ -1,4 +1,5 @@
 /* ===== General Stuff ===== */
+export * from './typings';
 export {default as Assets} from './assets';
 export * from './style';
 export * from './services';
@@ -181,7 +182,6 @@ export {
   WheelPickerAlign
 } from './components/WheelPicker';
 
-export * from '../typings';
 
 /* ===== TestKit ===== */
 // export {default as TextTestKit} from './components/text/Text.driver';
