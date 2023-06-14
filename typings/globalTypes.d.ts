@@ -1,13 +1,12 @@
-type Constructor<T, TA = any> = new(...args: TA[]) => T;
-type ExtendTypeWith<T extends Constructor<any>, OtherObject extends object> = Constructor<InstanceType<T> & OtherObject, ConstructorParameters<T>>;
-type Dictionary<TYPE> = {[key: string]: TYPE};
+export type Constructor<T, TA = any> = new(...args: TA[]) => T;
+export type ExtendTypeWith<T extends Constructor<any>, OtherObject extends object> = Constructor<InstanceType<T> & OtherObject, ConstructorParameters<T>>;
+export type Dictionary<TYPE> = {[key: string]: TYPE};
 
-interface Extendable {
+export interface Extendable {
   [key: string]: any;
 }
 
-interface ThemeComponent {
+export interface ThemeComponent {
   useCustomTheme?: boolean;
 }
 
-export {ExtendTypeWith, ThemeComponent, Dictionary, Extendable}

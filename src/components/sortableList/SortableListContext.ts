@@ -2,7 +2,7 @@ import {createContext} from 'react';
 import {ViewProps} from 'react-native';
 import {SharedValue} from 'react-native-reanimated';
 import {Data, SortableListItemProps} from './types';
-import {Dictionary} from '../../../typings';
+import {Dictionary} from 'typings';
 
 export interface SortableListContextType<ItemT extends SortableListItemProps> {
   data: Data<ItemT>;

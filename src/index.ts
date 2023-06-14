@@ -181,6 +181,8 @@ export {
   WheelPickerAlign
 } from './components/WheelPicker';
 
+export * from '../typings';
+
 /* ===== TestKit ===== */
 // export {default as TextTestKit} from './components/text/Text.driver';
 // export {default as ImageTestKit} from './components/image/Image.driver';
@@ -189,13 +191,4 @@ export {
 
 // export {default as ButtonDriverFactory} from './components/button/Button.driver';
 //================ Manual typings (all those exports should be removed one day) ==========
-// export {
-//   // BaseInput,
-//   // TextArea,
-//   // TextField,
-//   // MaskedInput,
-//   // SharedTransition,
-//   // Toast,
-//   // BaseComponent,
-//   // PureBaseComponent
-// } from '../typings';
+
