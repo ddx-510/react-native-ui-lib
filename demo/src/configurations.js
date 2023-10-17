@@ -21,9 +21,9 @@ export const loadDemoConfigurations = () => {
     brokenImage: require('./assets/images/placeholderMissingImage.png')
   });
 
-  Assets.loadAssetsGroup('svgs.demo', {
-    logo: require('./assets/svgs/headerLogo.svg').default
-  });
+  // Assets.loadAssetsGroup('svgs.demo', {
+  //   logo: require('./assets/svgs/headerLogo.svg').default
+  // });
 
   Typography.loadTypographies({
     h1: {...Typography.text40},
