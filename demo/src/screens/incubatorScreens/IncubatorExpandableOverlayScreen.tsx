@@ -1,7 +1,8 @@
+import _ from 'lodash';
 import React, {Component} from 'react';
 import {StyleSheet, ScrollView} from 'react-native';
 import {Colors, View, Text, Incubator, TouchableOpacity, ExpandableOverlayMethods, PickerMethods} from 'react-native-ui-lib';
-import _ from 'lodash';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const COLOR_OPTIONS: {[key: string]: string} = {
   red: Colors.red30,
@@ -84,7 +85,7 @@ export default class TextFieldScreen extends Component {
     const {textFieldValue} = this.state;
     return (
       <>
-        <Text h3 marginB-s4 primary>
+        <Text h3 marginV-s4 primary>
           Expandable TextField
         </Text>
         <Incubator.ExpandableOverlay
@@ -123,10 +124,7 @@ export default class TextFieldScreen extends Component {
     return (
       <ScrollView keyboardShouldPersistTaps="always">
         <View padding-page>
-          <Text h2 marginB-s5>
-            ExpandableOverlay
-          </Text>
-
+          {renderScreenTitle('ExpandableOverlay')}
           {this.renderExpandableFieldExample()}
           {this.renderExpandablePickerExample()}
         </View>

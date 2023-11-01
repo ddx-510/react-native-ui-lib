@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {ScrollView, StyleSheet, Alert, Image} from 'react-native';
 import {Text, View, Assets, Constants, Button, Colors, Typography, ButtonProps} from 'react-native-ui-lib';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const ButtonSpace = 20;
 const plusIcon = Assets.getAssetByPath('icons.demo.plus');
@@ -31,9 +32,8 @@ export default class ButtonsScreen extends Component {
     return (
       <View useSafeArea>
         <ScrollView showsVerticalScrollIndicator={false}>
+          {renderScreenTitle('Button', {margin: 20})}
           <View centerH>
-            <Text style={styles.title}>Buttons</Text>
-
             <Button
               backgroundColor="#30B650"
               label="SHUFFLE PLAY"
@@ -290,10 +290,6 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     padding: 25
-  },
-  title: {
-    ...Typography.text20,
-    color: Colors.$textDefault
   },
   header: {
     ...Typography.text60,

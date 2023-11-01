@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import {ScrollView} from 'react-native';
 import {View, Text, Button, DynamicFonts} from 'react-native-ui-lib';
-import {renderMultipleSegmentOptions} from '../ExampleScreenPresenter';
+import {renderMultipleSegmentOptions, renderScreenTitle} from '../ExampleScreenPresenter';
 
 enum FontLoadingEnum {
   SINGLE_FONT = 'singleFont',
@@ -106,6 +106,7 @@ ABCDEFGH abcdefgh
     const {fontLoadingType, loadedFonts} = this.state;
     return (
       <View bg-grey80 flex padding-20>
+        {renderScreenTitle('Dynamic Fonts')}
         {renderMultipleSegmentOptions.call(this, 'Font loading:', 'fontLoadingType', [
           {label: 'Single', value: FontLoadingEnum.SINGLE_FONT},
           {label: 'Family', value: FontLoadingEnum.FONT_FAMILY}

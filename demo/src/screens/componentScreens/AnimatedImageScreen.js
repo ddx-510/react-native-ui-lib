@@ -1,7 +1,8 @@
+import _ from 'lodash';
 import React, {Component} from 'react';
 import {ScrollView, StyleSheet, ActivityIndicator} from 'react-native';
-import _ from 'lodash';
 import {AnimatedImage, Colors} from 'react-native-ui-lib'; //eslint-disable-line
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const SampleImages = [
   'https://static.pexels.com/photos/50721/pencils-crayons-colourful-rainbow-50721.jpeg',
@@ -12,12 +13,14 @@ export default class AnimatedImageScreen extends Component {
   render() {
     return (
       <ScrollView style={styles.container}>
+        {renderScreenTitle('AnimatedImage', {margin: 20})}
+        
         {_.map(SampleImages, (image, index) => (
           <AnimatedImage
             containerStyle={{backgroundColor: Colors.blue50, marginBottom: 10}}
             style={{resizeMode: 'cover', height: 250}}
             source={{uri: image}}
-            loader={<ActivityIndicator />}
+            loader={<ActivityIndicator/>}
             key={index}
             animationDuration={index === 0 ? 300 : 800}
           />

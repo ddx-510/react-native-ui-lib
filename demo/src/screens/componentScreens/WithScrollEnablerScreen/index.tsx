@@ -3,9 +3,9 @@ import React, {Component} from 'react';
 import {LayoutChangeEvent} from 'react-native';
 import {Text, View} from 'react-native-ui-lib';
 import {
-  renderHeader,
   renderBooleanOption,
-  renderSliderOption
+  renderSliderOption,
+  renderScreenTitle
   // @ts-ignore
 } from '../../ExampleScreenPresenter';
 import AutoLockScrollView from './AutoLockScrollView';
@@ -105,7 +105,7 @@ class WithScrollEnablerScreen extends Component {
   render() {
     return (
       <View margin-10>
-        {renderHeader('withScrollEnabler', {'marginB-10': true})}
+        {renderScreenTitle('withScrollEnabler', {marginBottom: 20})}
         {this.renderOptions()}
         {this.renderData()}
         {this.renderList()}

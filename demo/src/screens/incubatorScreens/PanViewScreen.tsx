@@ -15,6 +15,7 @@ import {
   TouchableOpacity
 } from 'react-native-ui-lib';
 const {PanView} = Incubator;
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 interface Item {
   value: string;
@@ -150,7 +151,7 @@ class PanViewScreen extends Component {
     return (
       <Container style={styles.root}>
         <View marginL-page height={50} centerV>
-          <Text text50>New Pan View</Text>
+          {renderScreenTitle('Incubator PanView')}
         </View>
         <ScrollView>
           {this.renderCard('showToast', 'toast')}

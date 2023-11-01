@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View, Card, Button, Colors, Text, AnimatedScanner} from 'react-native-ui-lib'; //eslint-disable-line
 import posts from '../../data/posts';
-
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const featureIcon = require('../../assets/icons/star.png');
 const shareIcon = require('../../assets/icons/share.png');
@@ -24,7 +24,7 @@ export default class CardScannerScreen extends Component {
     } else {
       this.setState({isDone});
     }
-  }
+  };
 
   start = () => {
     const {progress} = this.state;
@@ -34,7 +34,7 @@ export default class CardScannerScreen extends Component {
       reset: false,
       progress: progress + 25
     });
-  }
+  };
 
   reset = () => {
     this.setState({
@@ -43,7 +43,7 @@ export default class CardScannerScreen extends Component {
       reset: true,
       isDone: false
     });
-  }
+  };
 
   render() {
     const {reset} = this.state;
@@ -52,6 +52,8 @@ export default class CardScannerScreen extends Component {
 
     return (
       <View flex useSafeArea>
+        {renderScreenTitle('AnimatedScanner', {margin: 20})}
+        
         <View flex padding-20>
           <View paddingL-40 marginB-20>
             <AnimatedScanner

@@ -2,7 +2,7 @@ import _ from 'lodash';
 import React, {Component} from 'react';
 import {ScrollView, StyleSheet, Alert} from 'react-native';
 import {Avatar, AvatarHelper, View, Text, Colors, Typography, AvatarProps} from 'react-native-ui-lib';
-
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const star = require('../../assets/icons/star.png');
 const onlineColor = Colors.$backgroundSuccessHeavy;
@@ -128,6 +128,8 @@ export default class AvatarsScreen extends Component {
   render() {
     return (
       <ScrollView contentContainerStyle={styles.container}>
+        {renderScreenTitle('Avatar')}
+        
         {_.map(examples, (example, i) => (
           <View key={i} style={styles.section}>
             <Text $textDefault style={{...Typography.text80}}>{example.title}</Text>

@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {StyleSheet} from 'react-native';
 import {FlatList} from 'react-native-gesture-handler';
-import {View, Text, Card, Button, Incubator, Colors, Spacings, ModalProps} from 'react-native-ui-lib';
+import {View, Text, Button, Incubator, Colors, Spacings, ModalProps} from 'react-native-ui-lib';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 interface Item {
   value: string;
@@ -65,11 +66,7 @@ export default class IncubatorDialogScreen extends Component {
 
     return (
       <View bg-$backgroundNeutralLight flex padding-20>
-        <Card height={100} center padding-20>
-          <Text $textDefault text50>
-            IncubatorDialogScreen
-          </Text>
-        </Card>
+        {renderScreenTitle('Incubator Dialog')}
         <View flex center>
           <Button marginV-s5 label="Open Dialog" onPress={this.openDialog}/>
         </View>

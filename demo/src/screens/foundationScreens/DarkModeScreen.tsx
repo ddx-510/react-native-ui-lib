@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet} from 'react-native';
 import {View, Text, Colors, Constants, SegmentedControl, SchemeType} from 'react-native-ui-lib';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const SCHEME_TYPES: {label: string; value: SchemeType}[] = [
   {label: 'device (default)', value: 'default'},
@@ -29,9 +30,8 @@ class DarkModeScreen extends Component {
 
     return (
       <View flex padding-page bg-screenBG>
-        <Text h1 textColor>
-          Dark Mode
-        </Text>
+        {renderScreenTitle('Dark Mode')}
+        
         <SegmentedControl
           containerStyle={{alignSelf: 'flex-start', marginTop: 20}}
           segments={SCHEME_TYPES}

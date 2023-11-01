@@ -27,17 +27,17 @@ export const navigationData = {
       {title: 'Image', tags: 'image cover overlay', screen: 'unicorn.components.ImageScreen'},
       {title: 'Button', tags: 'button cta', screen: 'unicorn.components.ButtonsScreen'},
       {title: 'Action Bar', tags: 'action bar floating bottom', screen: 'unicorn.components.ActionBarScreen'},
-      {title: 'Avatars', tags: 'avatar contact', screen: 'unicorn.components.AvatarsScreen'},
-      {title: 'Badges', tags: 'badge', screen: 'unicorn.components.BadgesScreen'},
+      {title: 'Avatar', tags: 'avatar contact', screen: 'unicorn.components.AvatarsScreen'},
+      {title: 'Badge', tags: 'badge', screen: 'unicorn.components.BadgesScreen'},
       {title: 'Cards', tags: 'cards feed', screen: 'unicorn.components.CardsScreen'},
       {title: 'Connection Status Bar', tags: 'connection status bar', screen: 'unicorn.components.ConnectionStatusBar'},
       {title: 'Chip', tags: 'chip', screen: 'unicorn.components.ChipScreen'},
-      {title: 'ExpandableSection', tags: 'expandable section', screen: 'unicorn.components.ExpandableSectionScreen'},
+      {title: 'Expandable Section', tags: 'expandable section', screen: 'unicorn.components.ExpandableSectionScreen'},
       {title: 'Icon', tags: 'image icon assets', screen: 'unicorn.components.IconScreen'},
       // {title: 'Overlays', tags: 'overlay image', screen: 'unicorn.components.OverlaysScreen'},
       {title: 'Page Control', tags: 'page', screen: 'unicorn.components.PageControlScreen'},
-      {title: 'ProgressBar', tags: 'progress bar animated', screen: 'unicorn.animations.ProgressBarScreen'},
-      {title: 'ScrollBar', tags: 'scroll bar gradient', screen: 'unicorn.components.ScrollBarScreen'},
+      {title: 'Progress Bar', tags: 'progress bar animated', screen: 'unicorn.animations.ProgressBarScreen'},
+      {title: 'Scroll Bar', tags: 'scroll bar gradient', screen: 'unicorn.components.ScrollBarScreen'},
       {
         title: 'Shared Transition',
         tags: 'shared transition element',
@@ -53,18 +53,18 @@ export const navigationData = {
       {title: 'Checkbox', tags: 'checkbox toggle controls', screen: 'unicorn.components.CheckboxScreen'},
       {title: 'Color Picker', tags: 'color picker control', screen: 'unicorn.components.ColorPickerScreen'},
       {title: 'Color Swatch', tags: 'color swatch and palette', screen: 'unicorn.components.ColorSwatchScreen'},
-      {title: 'TextField', tags: 'text input field form', screen: 'unicorn.components.TextFieldScreen'},
-      {title: 'NumberInput', tags: 'number input', screen: 'unicorn.components.NumberInputScreen'},
+      {title: 'Text Field', tags: 'text input field form', screen: 'unicorn.components.TextFieldScreen'},
+      {title: 'Number Input', tags: 'number input', screen: 'unicorn.components.NumberInputScreen'},
       {title: 'Picker', tags: 'picker form', screen: 'unicorn.components.PickerScreen'},
-      {title: 'DateTimePicker', tags: 'date time picker form', screen: 'unicorn.components.DateTimePickerScreen'},
-      {title: 'RadioButton', tags: 'radio button group controls', screen: 'unicorn.components.RadioButtonScreen'},
+      {title: 'DateTime Picker', tags: 'date time picker form', screen: 'unicorn.components.DateTimePickerScreen'},
+      {title: 'Radio Button', tags: 'radio button group controls', screen: 'unicorn.components.RadioButtonScreen'},
       {
-        title: 'SectionsWheelPicker',
+        title: 'Sections WheelPicker',
         tags: 'sections wheel picker form',
         screen: 'unicorn.components.SectionsWheelPickerScreen'
       },
       {
-        title: 'SegmentedControl',
+        title: 'Segmented Control',
         tags: 'segmented control switch toggle',
         screen: 'unicorn.components.SegmentedControlScreen'
       },
@@ -72,7 +72,7 @@ export const navigationData = {
       {title: 'Slider', tags: 'slider', screen: 'unicorn.components.SliderScreen'},
       {title: 'Slider (Incubator)', tags: 'slider', screen: 'unicorn.components.IncubatorSliderScreen'},
       {title: 'Switch', tags: 'switch toggle', screen: 'unicorn.components.SwitchScreen'},
-      {title: 'Masked Inputs', tags: 'text input form mask', screen: 'unicorn.components.MaskedInputScreen'},
+      {title: 'Masked Input', tags: 'text input form mask', screen: 'unicorn.components.MaskedInputScreen'},
       {
         title: 'WheelPicker',
         tags: 'wheel picker spinner',
@@ -98,9 +98,9 @@ export const navigationData = {
       {title: 'Contacts List', tags: 'list contacts', screen: 'unicorn.lists.ContactsListScreen'},
       {title: 'Conversation List', tags: 'list conversation', screen: 'unicorn.lists.ConversationListScreen'},
       {title: 'Drawer', tags: 'drawer', screen: 'unicorn.components.DrawerScreen'},
-      {title: 'SortableList', tags: 'sortable list drag', screen: 'unicorn.components.SortableListScreen'},
-      {title: 'GridList', tags: 'grid list', screen: 'unicorn.components.GridListScreen'},
-      {title: 'SortableGridList', tags: 'sort grid list drag', screen: 'unicorn.components.SortableGridListScreen'}
+      {title: 'Sortable List', tags: 'sortable list drag', screen: 'unicorn.components.SortableListScreen'},
+      {title: 'Grid List', tags: 'grid list', screen: 'unicorn.components.GridListScreen'},
+      {title: 'Sortable Grid List', tags: 'sort grid list drag', screen: 'unicorn.components.SortableGridListScreen'}
     ]
   },
   LayoutsAndTemplates: {
@@ -112,7 +112,7 @@ export const navigationData = {
       {title: 'LoadingScreen', tags: 'loading screen', screen: 'unicorn.screens.LoadingScreen'},
       {title: 'Modal', tags: 'modal topbar screen', screen: 'unicorn.screens.ModalScreen'},
       {title: 'StateScreen', tags: 'empty state screen', screen: 'unicorn.screens.EmptyStateScreen'},
-      {title: 'TabController', tags: 'tabbar controller native', screen: 'unicorn.components.TabControllerScreen'},
+      {title: 'Tab Controller', tags: 'tabbar controller native', screen: 'unicorn.components.TabControllerScreen'},
       {title: 'Timeline', tags: 'timeline', screen: 'unicorn.components.TimelineScreen'},
       {
         title: 'withScrollEnabler',
@@ -170,11 +170,11 @@ export const navigationData = {
       {title: 'Animated Image', tags: 'animated image', screen: 'unicorn.components.AnimatedImageScreen'},
       {title: 'Haptic feedback', tags: 'haptic feedback', screen: 'unicorn.components.HapticScreen'},
       {
-        title: 'ProgressiveImage',
+        title: 'Progressive Image',
         tags: 'progressive image cover overlay',
         screen: 'unicorn.components.ProgressiveImageScreen'
       },
-      {title: 'Card Scanner', tags: 'card scanner process', screen: 'unicorn.animations.CardScannerScreen'},
+      {title: 'Animated Scanner', tags: 'card scanner process', screen: 'unicorn.animations.CardScannerScreen'},
       {title: 'Pan Dismissible', tags: 'pan swipe drag dismiss', screen: 'unicorn.components.PanDismissibleScreen'},
       {title: 'Pan Listener', tags: 'pan swipe drag listener', screen: 'unicorn.components.PanListenerScreen'},
       {title: 'Pan Responder', tags: 'pan swipe drag responder', screen: 'unicorn.components.PanResponderScreen'}
@@ -184,12 +184,12 @@ export const navigationData = {
     title: 'Incubator (Experimental)',
     screens: [
       {title: 'Calendar', tags: 'calendar', screen: 'unicorn.components.IncubatorCalendarScreen'},
-      {title: 'ChipsInput', tags: 'chips input', screen: 'unicorn.components.ChipsInputScreen'},
+      {title: 'Chips Input', tags: 'chips input', screen: 'unicorn.components.ChipsInputScreen'},
       {title: 'Native TouchableOpacity', tags: 'touchable native', screen: 'unicorn.incubator.TouchableOpacityScreen'},
       {title: 'Dialog (New)', tags: 'dialog modal popup alert', screen: 'unicorn.incubator.IncubatorDialogScreen'},
       {title: 'Toast (New)', tags: 'toast', screen: 'unicorn.components.IncubatorToastScreen'},
       {
-        title: 'ExpandableOverlay',
+        title: 'Expandable Overlay',
         tags: 'text field expandable input picker',
         screen: 'unicorn.components.IncubatorExpandableOverlayScreen'
       },

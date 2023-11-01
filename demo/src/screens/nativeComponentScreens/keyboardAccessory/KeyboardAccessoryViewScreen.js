@@ -14,6 +14,7 @@ import {
   Switch
 } from 'react-native-ui-lib';
 import './demoKeyboards';
+import {renderScreenTitle} from '../../ExampleScreenPresenter';
 
 const KeyboardAccessoryView = Keyboard.KeyboardAccessoryView;
 const KeyboardUtils = Keyboard.KeyboardUtils;
@@ -178,9 +179,10 @@ export default class KeyboardAccessoryViewScreen extends PureComponent {
 
     return (
       <View flex bg-grey80>
-        <Text h2 marginT-page marginL-page>
-          KeyboardAccessoryView + KeyboardRegistry
-        </Text>
+        <View padding-20>
+          {renderScreenTitle('KeyboardAccessoryView + KeyboardRegistry')}
+        </View>
+
         <ScrollView
           contentContainerStyle={styles.scrollContainer}
           keyboardDismissMode={TrackInteractive ? 'interactive' : 'none'}

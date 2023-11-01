@@ -7,6 +7,7 @@ import video from '../../assets/icons/video.png';
 import tags from '../../assets/icons/tags.png';
 import collections from '../../assets/icons/collections.png';
 import richText from '../../assets/icons/richText.png';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 export default class ActionBarScreen extends Component {
   state = {
@@ -16,6 +17,7 @@ export default class ActionBarScreen extends Component {
   render() {
     return (
       <View flex bg-$backgroundNeutralLight>
+        {renderScreenTitle('ActionBar', {margin: 20})}
         <PageControl
           containerStyle={[styles.pageControl, styles.absoluteContainer]}
           numOfPages={6}

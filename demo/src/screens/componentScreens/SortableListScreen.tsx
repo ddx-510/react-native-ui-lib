@@ -12,7 +12,7 @@ import {
   Colors,
   Button
 } from 'react-native-ui-lib';
-import {renderHeader} from '../ExampleScreenPresenter';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 interface Item extends SortableListItemProps {
   text: string;
@@ -99,7 +99,7 @@ const SortableListScreen = () => {
 
   return (
     <View flex bg-$backgroundDefault>
-      {renderHeader('Sortable List', {'margin-10': true})}
+      {renderScreenTitle('SortableList', {margin: 20})}
       <View row center marginB-s2>
         <Button label="Add Item" size={Button.sizes.xSmall} disabled={removedItems.length === 0} onPress={addItem}/>
         <Button

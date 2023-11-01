@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {Colors, View, Text, Icon, TextField, Picker, Checkbox, Incubator, ListItem, Avatar, Button, Toast} from 'react-native-ui-lib';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const pickerItems = [
   {value: 0, label: 'לא'},
@@ -14,8 +15,8 @@ const RTLScreen = () => {
   return (
     <View flex>
       <View flex padding-page>
-        <Text text50>מסך דוגמא בעברית</Text>
-        <Text text70>בדיקה לטקסט רץ בעברית שהוא מיושר כמו שצריך לימין</Text>
+        {renderScreenTitle('מסך דוגמא בעברית')}
+        <Text text70>בדיקה לטקסט רץ בעברית שהוא מיושר בעברית לימין</Text>
         <Text marginB-20 grey30>Toggle RTL/LTR from the settings screen</Text>
 
         <TextField

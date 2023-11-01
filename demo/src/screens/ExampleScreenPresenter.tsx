@@ -12,7 +12,6 @@ import {
   SegmentedControl,
   SegmentedControlItemProps,
   Text,
-  TextProps,
   View
 } from 'react-native-ui-lib';
 
@@ -32,14 +31,6 @@ interface BooleanGroupOptions {
 interface SegmentsExtraOptions {
   state?: string;
   setState?: React.Dispatch<React.SetStateAction<any /** no suitable solution for enum */>>;
-}
-
-export function renderHeader(title: string, others?: TextProps) {
-  return (
-    <Text text30 $textDefault {...others}>
-      {title}
-    </Text>
-  );
 }
 
 export function renderBooleanOption(title: string,
@@ -217,6 +208,14 @@ export function renderMultipleSegmentOptions(title: string,
         }}
       />
     </View>
+  );
+}
+
+export function renderScreenTitle(title: string, style?: any) {
+  return (
+    <Text $textDefault h1 style={style}>
+      {title}
+    </Text>
   );
 }
 

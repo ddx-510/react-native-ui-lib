@@ -13,8 +13,8 @@ import {
   TextField,
   Incubator
 } from 'react-native-ui-lib';
-
 const {Toast} = Incubator;
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const SYSTEM_COLORS = ['grey', 'violet', 'blue', 'green', 'red', 'yellow', 'orange'];
 const INITIAL_COLOR = Colors.white;
@@ -195,14 +195,14 @@ class ColorsScreen extends Component {
     );
   }
 
-  renderColors(colors, title) {
+  renderColors() {
     return (
       <View padding-page>
-        <Text text50 marginB-20>
-          {title}
-        </Text>
+        <View paddingB-20>
+          {renderScreenTitle('SYSTEM COLORS')}
+        </View>
 
-        {_.map(colors, (color, index) => {
+        {_.map(SYSTEM_COLORS, (color, index) => {
           return (
             <View key={`${color}-${index}`}>
               <ScrollView horizontal showsHorizontalScrollIndicator={false}>
@@ -219,9 +219,8 @@ class ColorsScreen extends Component {
     const {searchValue, filteredTokens} = this.state;
     return (
       <View>
-        <Text text50 marginT-20 marginL-20>
-          DESIGN TOKENS
-        </Text>
+        {renderScreenTitle('DESIGN TOKENS', {marginLeft: 20})}
+        
         <View marginL-10 marginT-10>
           {searchValue ? (
             filteredTokens.length ? (
@@ -287,7 +286,7 @@ class ColorsScreen extends Component {
         {this.renderSearch()}
         <ScrollView ref={this.scrollViewRef}>
           {this.renderDesignTokens()}
-          {this.renderColors(SYSTEM_COLORS, 'SYSTEM COLORS')}
+          {this.renderColors()}
         </ScrollView>
         {this.renderToast()}
       </>

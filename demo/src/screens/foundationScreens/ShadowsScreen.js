@@ -58,7 +58,7 @@ export default class ShadowsScreen extends Component {
           <View style={[styles.subContainer, {backgroundColor: Colors.grey80}]}/>
           <View style={[styles.subContainer, {backgroundColor: Colors.white}]}/>
         </View>
-        <ScrollView>
+        <ScrollView showsVerticalScrollIndicator={false}>
           <View style={styles.container}>
             <View style={styles.subContainer}>{this.renderShadows(shadowsOverGreyBkg)}</View>
             <View style={styles.subContainer}>{this.renderShadows(shadowsOverWhiteBkg)}</View>

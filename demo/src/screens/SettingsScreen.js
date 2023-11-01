@@ -4,6 +4,7 @@ import {StyleSheet, I18nManager} from 'react-native';
 import {Colors, View, Text, Picker, Incubator, Switch} from 'react-native-ui-lib'; //eslint-disable-line
 import {navigationData} from './MenuStructure';
 import Storage, {DEFAULT_SCREEN, IS_RTL} from '../storage';
+import {renderScreenTitle} from './ExampleScreenPresenter';
 
 const none = {label: '[None]', value: ''};
 
@@ -69,7 +70,9 @@ class SettingsScreen extends Component {
     return (
       <View flex padding-25 bg-grey80>
         <View flex>
-          <Text text60>Default Screen</Text>
+          {renderScreenTitle('Settings')}
+
+          <Text text60 marginT-20>Default Screen</Text>
           <Text text70 marginB-20>
             Set default screen to open on app startup
           </Text>
@@ -87,7 +90,8 @@ class SettingsScreen extends Component {
             ))}
           </Picker>
 
-          <View style={{borderWidth: 1, borderColor: Colors.grey70, marginTop: 40}}>
+          <Text text60 marginV-10>Layout</Text>
+          <View style={{borderWidth: 1, borderColor: Colors.grey60}}>
             <View style={[{padding: 5, borderBottomWidth: 1}, styles.block]}>
               <Text text80 grey20>
                 Current layout direction
@@ -107,10 +111,6 @@ class SettingsScreen extends Component {
 
           {extraSettingsUI?.()}
         </View>
-
-        <Text text30 grey10>
-          Settings
-        </Text>
         <Incubator.Toast
           visible={showRefreshMessage}
           message={`Default screen set to: ${defaultScreen?.label}. Please refresh the app.`}

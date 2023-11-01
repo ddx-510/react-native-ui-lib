@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {ScrollView, StyleSheet} from 'react-native';
 import {Assets, Colors, View, Button, Text, Incubator} from 'react-native-ui-lib';
-import {renderMultipleSegmentOptions, renderBooleanOption, renderRadioGroup} from '../ExampleScreenPresenter';
+import {renderMultipleSegmentOptions, renderBooleanOption, renderRadioGroup, renderScreenTitle} from '../ExampleScreenPresenter';
 import {gestureHandlerRootHOC} from 'react-native-gesture-handler';
 
 const {Toast} = Incubator;
@@ -138,10 +138,7 @@ class ToastsScreen extends Component {
   render() {
     return (
       <View flex padding-page>
-        <Text $textDefault h1 marginB-s4>
-          Toast
-        </Text>
-
+        {renderScreenTitle('Toast')}
         <View flex>
           <ScrollView contentContainerStyle={styles.scrollView}>
             {renderMultipleSegmentOptions.call(this, 'Toast Position', 'toastPosition', [

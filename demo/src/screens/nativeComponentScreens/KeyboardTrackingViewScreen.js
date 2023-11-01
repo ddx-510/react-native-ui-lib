@@ -12,6 +12,7 @@ import {
   Button,
   Switch
 } from 'react-native-ui-lib';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const KeyboardTrackingView = Keyboard.KeyboardTrackingView;
 const messages = [
@@ -68,9 +69,8 @@ export default class KeyboardTrackingViewScreen extends PureComponent {
           keyboardDismissMode={trackInteractive ? 'interactive' : 'none'}
           showsVerticalScrollIndicator={false}
         >
-          <Text h1 grey10 marginB-s1>
-            Keyboard Tracking View
-          </Text>
+          {renderScreenTitle('KeyboardTrackingView')}
+
           <Text marginB-s4 grey10>
             Attach a custom view to that will track the keyboard position
           </Text>

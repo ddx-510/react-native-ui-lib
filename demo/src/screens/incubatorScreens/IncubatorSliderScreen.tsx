@@ -1,7 +1,7 @@
 import React, {useState, useRef, useCallback} from 'react';
 import {StyleSheet, ScrollView} from 'react-native';
 import {Constants, Colors, View, Text, Button, Incubator, GradientSlider, ColorSliderGroup} from 'react-native-ui-lib'; //eslint-disable-line
-import {renderBooleanOption} from '../ExampleScreenPresenter';
+import {renderBooleanOption, renderScreenTitle} from '../ExampleScreenPresenter';
 
 const VALUE = 20;
 const NEGATIVE_VALUE = -30;
@@ -253,9 +253,7 @@ const IncubatorSliderScreen = () => {
   return (
     <ScrollView showsVerticalScrollIndicator={false} style={{backgroundColor: Colors.$backgroundDefault}}>
       <View row spread margin-20>
-        <Text h1 $textDefault>
-          Slider
-        </Text>
+        {renderScreenTitle('Slider')}
         <Button link label="Reset Sliders" onPress={resetSliders}/>
       </View>
       <View marginL-20>

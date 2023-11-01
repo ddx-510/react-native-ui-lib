@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {View, Text, Card, TextField, Button} from 'react-native-ui-lib';
+import {View, Card, TextField, Button} from 'react-native-ui-lib';
+import {renderScreenTitle} from './ExampleScreenPresenter';
 
 export default class PlaygroundScreen extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class PlaygroundScreen extends Component {
           <TextField migrate placeholder="Placeholder"/>
         </View>
         <Card height={100} center padding-20>
-          <Text text50>Playground Screen</Text>
+          {renderScreenTitle('Playground Screen')}
         </Card>
         <View flex center>
           <Button marginV-20 label="Button"/>

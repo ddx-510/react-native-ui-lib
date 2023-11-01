@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import {StyleSheet, ScrollView} from 'react-native';
 import {Colors, Text, View, Fader, withScrollReached, WithScrollReachedProps} from 'react-native-ui-lib';
 // @ts-ignore
-import {renderHeader} from '../ExampleScreenPresenter';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const numberOfItems = 3;
 const faderPosition = Fader.position.BOTTOM;
@@ -32,7 +32,7 @@ class FaderScreen extends Component<WithScrollReachedProps> {
 
     return (
       <View padding-10>
-        {renderHeader('Fader', {'marginB-10': true})}
+        {renderScreenTitle('Fader', {marginBottom: 20})}
         <View center>
           <View style={styles.container}>
             <ScrollView

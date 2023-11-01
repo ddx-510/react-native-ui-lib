@@ -1,6 +1,7 @@
+import _ from 'lodash';
 import React, {Component} from 'react';
 import {View, Text, Button, ActionSheet} from 'react-native-ui-lib'; //eslint-disable-line
-import _ from 'lodash';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const useCases = [
   {label: 'Default (Android/iOS)', useNativeIOS: false, icons: false},
@@ -29,8 +30,9 @@ export default class ActionSheetScreen extends Component {
   render() {
     const {showCustom, showCustomIcons, showNative, pickedOption} = this.state;
     return (
-      <View flex padding-25>
-        <Text text30>Action Sheet</Text>
+      <View flex padding-20>
+        {renderScreenTitle('ActionSheet')}
+        
         <View left marginT-40>
           {_.map(useCases, (useCase, index) => {
             return (

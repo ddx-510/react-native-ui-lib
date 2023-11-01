@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {ScrollView, StyleSheet} from 'react-native';
 import {Colors, View, Badge, Text, Image, Stepper} from 'react-native-ui-lib'; //eslint-disable-line
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const BadgesSpace = 30;
 const star = require('../../assets/icons/star.png');
@@ -45,9 +46,7 @@ export default class BadgesScreen extends Component {
 
     return (
       <View flex>
-        <Text h1 $textDefault margin-20>
-          Badges
-        </Text>
+        {renderScreenTitle('Badge', {margin: 20})}
 
         <ScrollView contentContainerStyle={styles.container} showsVerticalScrollIndicator={false}>
           <View row spread>

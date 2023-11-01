@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {TouchableOpacity} from 'react-native';
 import {View, Text, Colors, Incubator} from 'react-native-ui-lib';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 // TODO: Android - multiple clicks on the example that allows long press button (maybe dragging is also involved) -->
 // long press on it --> sometimes the counter just start ticking up
@@ -41,8 +42,8 @@ class TouchableOpacityScreen extends Component {
     const {counter, longPressCounter} = this.state;
     return (
       <View bg-grey80 flex padding-20>
-        <Text text40>Native TouchableOpacity</Text>
-
+        {renderScreenTitle('Native TouchableOpacity')}
+        
         <Text text50 center marginT-20>
           COUNTER: {counter}
         </Text>

@@ -11,7 +11,7 @@ import {
   WithScrollReachedProps
 } from 'react-native-ui-lib';
 // @ts-ignore
-import {renderHeader} from '../ExampleScreenPresenter';
+import {renderScreenTitle} from '../ExampleScreenPresenter';
 
 const FADE_OUT_HEIGHT = 100;
 const fadeImage = require('../../assets/images/FadeOut.png');
@@ -27,7 +27,7 @@ class WithScrollReachedScreen extends Component<WithScrollReachedProps> {
   render() {
     return (
       <View margin-10>
-        {renderHeader('withScrollReached', {'marginB-10': true})}
+        {renderScreenTitle('withScrollReached', {marginBottom: 20})}
         <View>
           <ScrollView
             style={styles.scrollView}
