@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import React, {useState, useCallback, useMemo} from 'react';
-import {Alert, StyleSheet} from 'react-native';
+import {Alert, StyleSheet, ScrollView} from 'react-native';
 import {
   Text,
   View,
@@ -10,9 +10,9 @@ import {
   WheelPicker,
   WheelPickerProps,
   Constants,
-  Switch,
   Colors
 } from 'react-native-ui-lib';
+import {renderScreenTitle, renderBooleanOption} from '../ExampleScreenPresenter';
 
 const DAYS = _.times(10, i => i);
 const HOURS = _.times(24, i => i);
@@ -149,22 +149,16 @@ const SectionsWheelPickerScreen = () => {
     return setNumOfSections(index + 1);
   }, []);
 
-  const updateDisableRTLValue = useCallback((value: boolean) => {
-    setDisableRTL(value);
-  }, []);
-
   return (
-    <View>
-      <Text text40 marginL-10 marginT-20>
-        Sections Wheel Picker
-      </Text>
+    <ScrollView showsVerticalScrollIndicator={false}>
+      {renderScreenTitle('SectionsWheelPicker', {margin: 20})}
       <View row center style={styles.bottomDivider}>
-        <Text margin-s5> Disable RTL</Text>
-        <Switch value={shouldDisableRTL} onValueChange={updateDisableRTLValue}/>
+        {renderBooleanOption('Disable RTL', 'disableRTL', {spread: false, state: disableRTL, setState: setDisableRTL})}
       </View>
-      <View centerH marginT-20>
+      
+      <View centerH marginV-20>
         <Text text60 marginB-20>
-          Pick a duration
+          Pick duration
         </Text>
         <SegmentedControl
           segments={[{label: '1 section'}, {label: '2 sections'}, {label: '3 sections'}]}
@@ -177,13 +171,14 @@ const SectionsWheelPickerScreen = () => {
         <Button marginR-40 link label={'Save'} onPress={onSavePress}/>
         <Button label={'Reset'} link onPress={onResetPress}/>
       </View>
+
       <View>
         <Text center text60 marginV-20>
-          Pick a time
+          Pick time
         </Text>
         <SectionsWheelPicker disableRTL={disableRTL} sections={timeSections}/>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 
