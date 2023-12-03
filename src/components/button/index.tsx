@@ -8,6 +8,7 @@ import type {Dictionary} from '../../typings/common';
 import Text from '../text';
 import Image from '../image';
 import Icon from '../icon';
+import View from '../view';
 import {
   ButtonSize,
   ButtonAnimationDirection,
@@ -20,7 +21,6 @@ import {
 import {PADDINGS, HORIZONTAL_PADDINGS, MIN_WIDTH, DEFAULT_SIZE} from './ButtonConstants';
 
 export {ButtonSize, ButtonAnimationDirection, ButtonProps};
-
 
 class Button extends PureComponent<Props, ButtonState> {
   static displayName = 'Button';
@@ -359,8 +359,6 @@ class Button extends PureComponent<Props, ButtonState> {
 
     return (
       <TouchableOpacity
-        row
-        centerV
         style={[
           this.styles.container,
           animateLayout && this.getAnimationDirectionStyle(),
@@ -383,9 +381,12 @@ class Button extends PureComponent<Props, ButtonState> {
         {...others}
         ref={forwardedRef}
       >
-        {this.props.children}
-        {this.props.iconOnRight ? this.renderLabel() : this.renderIcon()}
-        {this.props.iconOnRight ? this.renderIcon() : this.renderLabel()}
+        <View row center>
+          {this.props.children}
+          {this.props.iconOnRight ? this.renderLabel() : this.renderIcon()}
+          {this.props.iconOnRight ? this.renderIcon() : this.renderLabel()}
+        </View>
+        <View useSafeArea width={'100%'}/>
       </TouchableOpacity>
     );
   }
