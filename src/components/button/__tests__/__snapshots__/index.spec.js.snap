@@ -36,7 +36,6 @@ exports[`Button backgroundColor should return backgroundColor according to modif
       "alignItems": "center",
       "backgroundColor": "#FB6413",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -45,46 +44,84 @@ exports[`Button backgroundColor should return backgroundColor according to modif
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -124,7 +161,6 @@ exports[`Button backgroundColor should return backgroundColor according to prop 
       "alignItems": "center",
       "backgroundColor": "red",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -133,46 +169,84 @@ exports[`Button backgroundColor should return backgroundColor according to prop 
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -212,7 +286,6 @@ exports[`Button backgroundColor should return defined theme backgroundColor 1`] 
       "alignItems": "center",
       "backgroundColor": "#b268ca",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -221,46 +294,84 @@ exports[`Button backgroundColor should return defined theme backgroundColor 1`] 
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -300,7 +411,6 @@ exports[`Button backgroundColor should return theme disabled color if button is 
       "alignItems": "center",
       "backgroundColor": "#D2D6D8",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -309,46 +419,84 @@ exports[`Button backgroundColor should return theme disabled color if button is 
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -388,7 +536,6 @@ exports[`Button backgroundColor should return undefined if this button is link 1
       "alignItems": "center",
       "backgroundColor": "transparent",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -397,46 +544,84 @@ exports[`Button backgroundColor should return undefined if this button is link 1
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -478,7 +663,6 @@ exports[`Button backgroundColor should return undefined if this button is outlin
       "borderColor": "#5A48F5",
       "borderRadius": 999,
       "borderWidth": 1,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -487,46 +671,84 @@ exports[`Button backgroundColor should return undefined if this button is outlin
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -566,7 +788,6 @@ exports[`Button border radius should return 0 border radius when border radius p
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -575,46 +796,84 @@ exports[`Button border radius should return 0 border radius when border radius p
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -654,7 +913,6 @@ exports[`Button border radius should return 0 border radius when button is full 
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -663,46 +921,84 @@ exports[`Button border radius should return 0 border radius when button is full 
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -742,7 +1038,6 @@ exports[`Button border radius should return given border radius when use plain n
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 12,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -751,46 +1046,84 @@ exports[`Button border radius should return given border radius when use plain n
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -830,7 +1163,6 @@ exports[`Button container size should avoid minWidth limitation if avoidMinWidth
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -839,51 +1171,89 @@ exports[`Button container size should avoid minWidth limitation if avoidMinWidth
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -923,7 +1293,6 @@ exports[`Button container size should have no padding if avoidInnerPadding prop 
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 77,
       "opacity": 1,
@@ -932,51 +1301,89 @@ exports[`Button container size should have no padding if avoidInnerPadding prop 
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1016,7 +1423,6 @@ exports[`Button container size should have no padding of button is a link nor mi
       "alignItems": "center",
       "backgroundColor": "transparent",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -1025,51 +1431,89 @@ exports[`Button container size should have no padding of button is a link nor mi
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1109,7 +1553,6 @@ exports[`Button container size should have no padding of button is an icon butto
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 77,
       "opacity": 1,
@@ -1118,12 +1561,9 @@ exports[`Button container size should have no padding of button is an icon butto
     }
   }
 >
-  <Image
-    accessibilityRole="image"
-    accessible={false}
-    assetGroup="icons"
-    onError={[Function]}
-    source={14}
+  <View
+    center={true}
+    row={true}
     style={
       [
         undefined,
@@ -1131,67 +1571,108 @@ exports[`Button container size should have no padding of button is an icon butto
         undefined,
         undefined,
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        false,
-        [
-          {
-            "marginRight": 8,
-            "tintColor": "#FFFFFF",
-          },
-          undefined,
-        ],
-        false,
-      ]
-    }
-    testID="undefined.icon"
-  />
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
-    style={
-      [
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Image
+      accessibilityRole="image"
+      accessible={false}
+      assetGroup="icons"
+      onError={[Function]}
+      source={14}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          [
+            {
+              "marginRight": 8,
+              "tintColor": "#FFFFFF",
+            },
+            undefined,
+          ],
+          false,
+        ]
+      }
+      testID="undefined.icon"
+    />
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1233,7 +1714,6 @@ exports[`Button container size should reduce padding by outlineWidth in case of 
       "borderColor": "#5A48F5",
       "borderRadius": 999,
       "borderWidth": 2,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -1242,46 +1722,84 @@ exports[`Button container size should reduce padding by outlineWidth in case of 
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1321,7 +1839,6 @@ exports[`Button container size should return style for large button 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -1330,46 +1847,84 @@ exports[`Button container size should return style for large button 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1411,7 +1966,6 @@ exports[`Button container size should return style for large button 2`] = `
       "borderColor": "#5A48F5",
       "borderRadius": 999,
       "borderWidth": 1,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -1420,46 +1974,84 @@ exports[`Button container size should return style for large button 2`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1499,7 +2091,6 @@ exports[`Button container size should return style for medium button 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 77,
       "opacity": 1,
@@ -1508,51 +2099,89 @@ exports[`Button container size should return style for medium button 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1594,7 +2223,6 @@ exports[`Button container size should return style for medium button 2`] = `
       "borderColor": "#5A48F5",
       "borderRadius": 999,
       "borderWidth": 1,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 77,
       "opacity": 1,
@@ -1603,51 +2231,89 @@ exports[`Button container size should return style for medium button 2`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1687,7 +2353,6 @@ exports[`Button container size should return style for round button 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "height": undefined,
       "justifyContent": "center",
       "opacity": 1,
@@ -1696,46 +2361,84 @@ exports[`Button container size should return style for round button 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1775,7 +2478,6 @@ exports[`Button container size should return style for small button 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 70,
       "opacity": 1,
@@ -1784,51 +2486,89 @@ exports[`Button container size should return style for small button 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1870,7 +2610,6 @@ exports[`Button container size should return style for small button 2`] = `
       "borderColor": "#5A48F5",
       "borderRadius": 999,
       "borderWidth": 1,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 70,
       "opacity": 1,
@@ -1879,51 +2618,89 @@ exports[`Button container size should return style for small button 2`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -1963,7 +2740,6 @@ exports[`Button container size should return style for xSmall button 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 66,
       "opacity": 1,
@@ -1972,51 +2748,89 @@ exports[`Button container size should return style for xSmall button 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -2058,7 +2872,6 @@ exports[`Button container size should return style for xSmall button 2`] = `
       "borderColor": "#5A48F5",
       "borderRadius": 999,
       "borderWidth": 1,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 66,
       "opacity": 1,
@@ -2067,51 +2880,89 @@ exports[`Button container size should return style for xSmall button 2`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -2151,7 +3002,6 @@ exports[`Button hyperlink should render button as a hyperlink 1`] = `
       "alignItems": "center",
       "backgroundColor": "transparent",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -2160,48 +3010,86 @@ exports[`Button hyperlink should render button as a hyperlink 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
-        {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
-        },
+        undefined,
         undefined,
         undefined,
         undefined,
         undefined,
         {},
-        undefined,
-        undefined,
+        {},
         {
-          "textDecorationLine": "underline",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          {},
+          undefined,
+          undefined,
           {
-            "color": "#5A48F5",
+            "textDecorationLine": "underline",
           },
-          undefined,
-          undefined,
-          undefined,
-        ],
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -2241,7 +3129,6 @@ exports[`Button icon should apply color on icon 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -2250,12 +3137,9 @@ exports[`Button icon should apply color on icon 1`] = `
     }
   }
 >
-  <Image
-    accessibilityRole="image"
-    accessible={false}
-    assetGroup="icons"
-    onError={[Function]}
-    source={12}
+  <View
+    center={true}
+    row={true}
     style={
       [
         undefined,
@@ -2263,20 +3147,61 @@ exports[`Button icon should apply color on icon 1`] = `
         undefined,
         undefined,
         undefined,
+        {},
+        {},
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
         undefined,
-        undefined,
-        undefined,
-        false,
-        [
-          {
-            "tintColor": "green",
-          },
-          undefined,
-        ],
-        false,
       ]
     }
-    testID="undefined.icon"
+  >
+    <Image
+      accessibilityRole="image"
+      accessible={false}
+      assetGroup="icons"
+      onError={[Function]}
+      source={12}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          [
+            {
+              "tintColor": "green",
+            },
+            undefined,
+          ],
+          false,
+        ]
+      }
+      testID="undefined.icon"
+    />
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
+      ]
+    }
+    width="100%"
   />
 </View>
 `;
@@ -2317,7 +3242,6 @@ exports[`Button icon should apply color on icon 2`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -2326,12 +3250,9 @@ exports[`Button icon should apply color on icon 2`] = `
     }
   }
 >
-  <Image
-    accessibilityRole="image"
-    accessible={false}
-    assetGroup="icons"
-    onError={[Function]}
-    source={12}
+  <View
+    center={true}
+    row={true}
     style={
       [
         undefined,
@@ -2339,20 +3260,61 @@ exports[`Button icon should apply color on icon 2`] = `
         undefined,
         undefined,
         undefined,
+        {},
+        {},
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
         undefined,
-        undefined,
-        undefined,
-        false,
-        [
-          {
-            "tintColor": "#FC3D2F",
-          },
-          undefined,
-        ],
-        false,
       ]
     }
-    testID="undefined.icon"
+  >
+    <Image
+      accessibilityRole="image"
+      accessible={false}
+      assetGroup="icons"
+      onError={[Function]}
+      source={12}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          [
+            {
+              "tintColor": "#FC3D2F",
+            },
+            undefined,
+          ],
+          false,
+        ]
+      }
+      testID="undefined.icon"
+    />
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
+      ]
+    }
+    width="100%"
   />
 </View>
 `;
@@ -2393,7 +3355,6 @@ exports[`Button icon should include custom iconStyle provided as a prop 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -2402,12 +3363,9 @@ exports[`Button icon should include custom iconStyle provided as a prop 1`] = `
     }
   }
 >
-  <Image
-    accessibilityRole="image"
-    accessible={false}
-    assetGroup="icons"
-    onError={[Function]}
-    source={12}
+  <View
+    center={true}
+    row={true}
     style={
       [
         undefined,
@@ -2415,23 +3373,64 @@ exports[`Button icon should include custom iconStyle provided as a prop 1`] = `
         undefined,
         undefined,
         undefined,
+        {},
+        {},
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
         undefined,
-        undefined,
-        undefined,
-        false,
-        [
-          {
-            "tintColor": "#FFFFFF",
-          },
-          {
-            "marginRight": 9,
-            "tintColor": "red",
-          },
-        ],
-        false,
       ]
     }
-    testID="undefined.icon"
+  >
+    <Image
+      accessibilityRole="image"
+      accessible={false}
+      assetGroup="icons"
+      onError={[Function]}
+      source={12}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          [
+            {
+              "tintColor": "#FFFFFF",
+            },
+            {
+              "marginRight": 9,
+              "tintColor": "red",
+            },
+          ],
+          false,
+        ]
+      }
+      testID="undefined.icon"
+    />
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
+      ]
+    }
+    width="100%"
   />
 </View>
 `;
@@ -2474,7 +3473,6 @@ exports[`Button icon should return icon style according to different variations 
       "borderColor": "#5A48F5",
       "borderRadius": 999,
       "borderWidth": 1,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -2483,12 +3481,9 @@ exports[`Button icon should return icon style according to different variations 
     }
   }
 >
-  <Image
-    accessibilityRole="image"
-    accessible={false}
-    assetGroup="icons"
-    onError={[Function]}
-    source={12}
+  <View
+    center={true}
+    row={true}
     style={
       [
         undefined,
@@ -2496,20 +3491,61 @@ exports[`Button icon should return icon style according to different variations 
         undefined,
         undefined,
         undefined,
+        {},
+        {},
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
         undefined,
-        undefined,
-        undefined,
-        false,
-        [
-          {
-            "tintColor": "#5A48F5",
-          },
-          undefined,
-        ],
-        false,
       ]
     }
-    testID="undefined.icon"
+  >
+    <Image
+      accessibilityRole="image"
+      accessible={false}
+      assetGroup="icons"
+      onError={[Function]}
+      source={12}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          [
+            {
+              "tintColor": "#5A48F5",
+            },
+            undefined,
+          ],
+          false,
+        ]
+      }
+      testID="undefined.icon"
+    />
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
+      ]
+    }
+    width="100%"
   />
 </View>
 `;
@@ -2550,7 +3586,6 @@ exports[`Button icon should return icon style according to different variations 
       "alignItems": "center",
       "backgroundColor": "transparent",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -2559,12 +3594,9 @@ exports[`Button icon should return icon style according to different variations 
     }
   }
 >
-  <Image
-    accessibilityRole="image"
-    accessible={false}
-    assetGroup="icons"
-    onError={[Function]}
-    source={12}
+  <View
+    center={true}
+    row={true}
     style={
       [
         undefined,
@@ -2572,20 +3604,61 @@ exports[`Button icon should return icon style according to different variations 
         undefined,
         undefined,
         undefined,
+        {},
+        {},
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
         undefined,
-        undefined,
-        undefined,
-        false,
-        [
-          {
-            "tintColor": "#5A48F5",
-          },
-          undefined,
-        ],
-        false,
       ]
     }
-    testID="undefined.icon"
+  >
+    <Image
+      accessibilityRole="image"
+      accessible={false}
+      assetGroup="icons"
+      onError={[Function]}
+      source={12}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          [
+            {
+              "tintColor": "#5A48F5",
+            },
+            undefined,
+          ],
+          false,
+        ]
+      }
+      testID="undefined.icon"
+    />
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
+      ]
+    }
+    width="100%"
   />
 </View>
 `;
@@ -2626,7 +3699,6 @@ exports[`Button icon should return icon style according to different variations 
       "alignItems": "center",
       "backgroundColor": "#D2D6D8",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -2635,12 +3707,9 @@ exports[`Button icon should return icon style according to different variations 
     }
   }
 >
-  <Image
-    accessibilityRole="image"
-    accessible={false}
-    assetGroup="icons"
-    onError={[Function]}
-    source={12}
+  <View
+    center={true}
+    row={true}
     style={
       [
         undefined,
@@ -2648,20 +3717,61 @@ exports[`Button icon should return icon style according to different variations 
         undefined,
         undefined,
         undefined,
+        {},
+        {},
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
         undefined,
-        undefined,
-        undefined,
-        false,
-        [
-          {
-            "tintColor": "#FFFFFF",
-          },
-          undefined,
-        ],
-        false,
       ]
     }
-    testID="undefined.icon"
+  >
+    <Image
+      accessibilityRole="image"
+      accessible={false}
+      assetGroup="icons"
+      onError={[Function]}
+      source={12}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          [
+            {
+              "tintColor": "#FFFFFF",
+            },
+            undefined,
+          ],
+          false,
+        ]
+      }
+      testID="undefined.icon"
+    />
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
+      ]
+    }
+    width="100%"
   />
 </View>
 `;
@@ -2702,7 +3812,6 @@ exports[`Button icon should return the right spacing according to button size wh
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -2711,46 +3820,84 @@ exports[`Button icon should return the right spacing according to button size wh
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -2790,7 +3937,6 @@ exports[`Button icon should return the right spacing according to button size wh
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 77,
       "opacity": 1,
@@ -2799,51 +3945,89 @@ exports[`Button icon should return the right spacing according to button size wh
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -2883,7 +4067,6 @@ exports[`Button icon should return the right spacing according to button size wh
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 70,
       "opacity": 1,
@@ -2892,51 +4075,89 @@ exports[`Button icon should return the right spacing according to button size wh
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -2976,7 +4197,6 @@ exports[`Button icon should return the right spacing according to button size wh
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 66,
       "opacity": 1,
@@ -2985,51 +4205,89 @@ exports[`Button icon should return the right spacing according to button size wh
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -3069,7 +4327,6 @@ exports[`Button label size should return style for large button 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -3078,46 +4335,84 @@ exports[`Button label size should return style for large button 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -3157,7 +4452,6 @@ exports[`Button label size should return style for medium button 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 77,
       "opacity": 1,
@@ -3166,51 +4460,89 @@ exports[`Button label size should return style for medium button 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -3250,7 +4582,6 @@ exports[`Button label size should return style for small button 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 70,
       "opacity": 1,
@@ -3259,51 +4590,89 @@ exports[`Button label size should return style for small button 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -3343,7 +4712,6 @@ exports[`Button label size should return style for xSmall button 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 66,
       "opacity": 1,
@@ -3352,51 +4720,89 @@ exports[`Button label size should return style for xSmall button 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
-          },
-          {
-            "fontFamily": "System",
-            "fontSize": 14,
-            "fontWeight": "400",
-            "lineHeight": 20,
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -3436,7 +4842,6 @@ exports[`Button labelColor should return Theme linkColor color for link 1`] = `
       "alignItems": "center",
       "backgroundColor": "transparent",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -3445,46 +4850,84 @@ exports[`Button labelColor should return Theme linkColor color for link 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFD54E",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFD54E",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -3524,7 +4967,6 @@ exports[`Button labelColor should return color according to color modifier 1`] =
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -3533,46 +4975,84 @@ exports[`Button labelColor should return color according to color modifier 1`] =
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#D52712",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#D52712",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -3612,7 +5092,6 @@ exports[`Button labelColor should return color according to color prop 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -3621,46 +5100,84 @@ exports[`Button labelColor should return color according to color prop 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "green",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "green",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -3700,7 +5217,6 @@ exports[`Button labelColor should return disabled text color according to theme 
       "alignItems": "center",
       "backgroundColor": "transparent",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -3709,46 +5225,84 @@ exports[`Button labelColor should return disabled text color according to theme 
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#D2D6D8",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#D2D6D8",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -3788,7 +5342,6 @@ exports[`Button labelColor should return linkColor color for link 1`] = `
       "alignItems": "center",
       "backgroundColor": "transparent",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -3797,46 +5350,84 @@ exports[`Button labelColor should return linkColor color for link 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FDB893",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FDB893",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -3876,7 +5467,6 @@ exports[`Button labelColor should return undefined color if this is an icon butt
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -3885,12 +5475,9 @@ exports[`Button labelColor should return undefined color if this is an icon butt
     }
   }
 >
-  <Image
-    accessibilityRole="image"
-    accessible={false}
-    assetGroup="icons"
-    onError={[Function]}
-    source={12}
+  <View
+    center={true}
+    row={true}
     style={
       [
         undefined,
@@ -3898,20 +5485,61 @@ exports[`Button labelColor should return undefined color if this is an icon butt
         undefined,
         undefined,
         undefined,
+        {},
+        {},
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
         undefined,
-        undefined,
-        undefined,
-        false,
-        [
-          {
-            "tintColor": "#FFFFFF",
-          },
-          undefined,
-        ],
-        false,
       ]
     }
-    testID="undefined.icon"
+  >
+    <Image
+      accessibilityRole="image"
+      accessible={false}
+      assetGroup="icons"
+      onError={[Function]}
+      source={12}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          [
+            {
+              "tintColor": "#FFFFFF",
+            },
+            undefined,
+          ],
+          false,
+        ]
+      }
+      testID="undefined.icon"
+    />
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
+      ]
+    }
+    width="100%"
   />
 </View>
 `;
@@ -3952,7 +5580,6 @@ exports[`Button link should render button as a link 1`] = `
       "alignItems": "center",
       "backgroundColor": "transparent",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -3961,46 +5588,84 @@ exports[`Button link should render button as a link 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -4042,7 +5707,6 @@ exports[`Button outline should render button with an outline 1`] = `
       "borderColor": "#5A48F5",
       "borderRadius": 999,
       "borderWidth": 1,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -4051,46 +5715,84 @@ exports[`Button outline should render button with an outline 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -4132,7 +5834,6 @@ exports[`Button outline should render button with an outlineColor 1`] = `
       "borderColor": "blue",
       "borderRadius": 999,
       "borderWidth": 1,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -4141,46 +5842,84 @@ exports[`Button outline should render button with an outlineColor 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -4222,7 +5961,6 @@ exports[`Button outline should render button with outline and outlineColor 1`] =
       "borderColor": "blue",
       "borderRadius": 999,
       "borderWidth": 1,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -4231,46 +5969,84 @@ exports[`Button outline should render button with outline and outlineColor 1`] =
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "blue",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "blue",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -4312,7 +6088,6 @@ exports[`Button outline should return custom borderWidth according to outlineWid
       "borderColor": "#5A48F5",
       "borderRadius": 999,
       "borderWidth": 3,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -4321,46 +6096,84 @@ exports[`Button outline should return custom borderWidth according to outlineWid
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -4402,7 +6215,6 @@ exports[`Button outline should return disabled color for outline if button is di
       "borderColor": "#D2D6D8",
       "borderRadius": 999,
       "borderWidth": 1,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -4411,46 +6223,84 @@ exports[`Button outline should return disabled color for outline if button is di
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#D2D6D8",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#D2D6D8",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -4490,7 +6340,6 @@ exports[`Button outline should return undefined when link is true, even when out
       "alignItems": "center",
       "backgroundColor": "transparent",
       "borderRadius": 0,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": undefined,
       "opacity": 1,
@@ -4499,46 +6348,84 @@ exports[`Button outline should return undefined when link is true, even when out
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#5A48F5",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#5A48F5",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
 
@@ -4578,7 +6465,6 @@ exports[`Button should render default button 1`] = `
       "alignItems": "center",
       "backgroundColor": "#5A48F5",
       "borderRadius": 999,
-      "flexDirection": "row",
       "justifyContent": "center",
       "minWidth": 90,
       "opacity": 1,
@@ -4587,45 +6473,83 @@ exports[`Button should render default button 1`] = `
     }
   }
 >
-  <Text
-    fsTagName="unmask"
-    numberOfLines={1}
+  <View
+    center={true}
+    row={true}
     style={
       [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
         {
-          "backgroundColor": "transparent",
-          "color": "#20303C",
-          "writingDirection": "ltr",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
         },
         undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
-        undefined,
+      ]
+    }
+  >
+    <Text
+      fsTagName="unmask"
+      numberOfLines={1}
+      style={
         [
           {
             "backgroundColor": "transparent",
-            "flexDirection": "row",
-            "fontFamily": "System",
-            "fontSize": 16,
-            "fontWeight": "400",
-            "lineHeight": 24,
-          },
-          {
-            "color": "#FFFFFF",
+            "color": "#20303C",
+            "writingDirection": "ltr",
           },
           undefined,
           undefined,
           undefined,
-        ],
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          [
+            {
+              "backgroundColor": "transparent",
+              "flexDirection": "row",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            {
+              "color": "#FFFFFF",
+            },
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined.label"
+    >
+      Button
+    </Text>
+  </View>
+  <RCTSafeAreaView
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {},
+        {},
+        {},
+        undefined,
       ]
     }
-    testID="undefined.label"
-  >
-    Button
-  </Text>
+    width="100%"
+  />
 </View>
 `;
