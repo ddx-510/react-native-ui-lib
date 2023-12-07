@@ -1,5 +1,5 @@
 import {PureComponent} from 'react';
-import {ImageStyle, TextStyle, StyleProp} from 'react-native';
+import {ImageStyle, TextStyle, StyleProp, ViewStyle} from 'react-native';
 import {
   BaseComponentInjectedProps,
   ForwardRefInjectedProps,
@@ -153,6 +153,14 @@ export type ButtonProps = TouchableOpacityProps &
      * the direction of the animation ('left' and 'right' will effect the button's own alignment)
      */
     animateTo?: ButtonAnimationDirectionProp;
+    /**
+     * Styling for the inner container
+     */
+    innerContainerStyle?: StyleProp<ViewStyle>;
+    /**
+     * Wether to spread to the safe area.
+     */
+    useSafeArea?: boolean;
   };
 
 export type ButtonState = {
@@ -176,7 +184,8 @@ export const DEFAULT_PROPS = {
  * @example: https://github.com/wix/react-native-ui-lib/blob/master/demo/src/screens/componentScreens/ButtonsScreen.tsx
  */
 // @ts-ignore
-class FakeButtonForDocs extends PureComponent<ButtonProps> { // eslint-disable-line
+class FakeButtonForDocs extends PureComponent<ButtonProps> {
+  // eslint-disable-line
   static displayName = 'Button';
 
   static defaultProps = DEFAULT_PROPS;

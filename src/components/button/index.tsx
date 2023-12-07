@@ -349,7 +349,18 @@ class Button extends PureComponent<Props, ButtonState> {
   }
 
   render() {
-    const {onPress, disabled, style, testID, animateLayout, modifiers, forwardedRef, ...others} = this.props;
+    const {
+      onPress,
+      disabled,
+      style,
+      testID,
+      animateLayout,
+      modifiers,
+      forwardedRef,
+      innerContainerStyle,
+      useSafeArea,
+      ...others
+    } = this.props;
     const shadowStyle = this.getShadowStyle();
     const {margins, paddings} = modifiers;
     const backgroundColor = this.getBackgroundColor();
@@ -381,12 +392,12 @@ class Button extends PureComponent<Props, ButtonState> {
         {...others}
         ref={forwardedRef}
       >
-        <View row center>
+        <View row centerV style={innerContainerStyle}>
           {this.props.children}
           {this.props.iconOnRight ? this.renderLabel() : this.renderIcon()}
           {this.props.iconOnRight ? this.renderIcon() : this.renderLabel()}
         </View>
-        <View useSafeArea width={'100%'}/>
+        {useSafeArea && <View useSafeArea/>}
       </TouchableOpacity>
     );
   }

@@ -65,6 +65,16 @@
       "name": "animateTo",
       "type": "ButtonAnimationDirection",
       "description": "the direction of the animation ('left' and 'right' will effect the button's own alignment)"
+    },
+    {
+      "name": "innerContainerStyle",
+      "type": "ViewStyle",
+      "description": "Styling for the inner container"
+    },
+    {
+      "name": "useSafeArea",
+      "type": "boolean",
+      "description": "Wether to spread to the safe area"
     }
   ],
   "snippet": [
