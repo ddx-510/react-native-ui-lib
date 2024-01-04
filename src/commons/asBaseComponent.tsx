@@ -1,7 +1,7 @@
 import React from 'react';
 import hoistStatics from 'hoist-non-react-statics';
 import * as Modifiers from './modifiers';
-import {Scheme, SchemeChangeListener, ThemeManager} from '../style';
+import { Scheme, SchemeChangeListener, ThemeManager } from '../style';
 import forwardRef from './forwardRef';
 import UIComponent from './UIComponent';
 
@@ -46,7 +46,7 @@ function asBaseComponent<PROPS, STATICS = {}>(WrappedComponent: React.ComponentT
       // https://github.com/facebook/react-native/issues/28525
       // this.setState({colorScheme: Appearance.getColorScheme()});
       if (this.state.colorScheme !== colorScheme) {
-        this.setState({colorScheme});
+        this.setState({ colorScheme });
       }
     };
 
@@ -56,7 +56,7 @@ function asBaseComponent<PROPS, STATICS = {}>(WrappedComponent: React.ComponentT
 
     static getDerivedStateFromError(error: any) {
       UIComponent.defaultProps?.onError?.(error, WrappedComponent.defaultProps);
-      return {error: true};
+      return { error: true };
     }
 
     render() {
@@ -67,10 +67,10 @@ function asBaseComponent<PROPS, STATICS = {}>(WrappedComponent: React.ComponentT
       // TODO: omit original modifiers props (left, right, flex, etc..)
       // Because they throws an error when being passed to RNView on Android
       // @ts-expect-error
-      const {forwardedRef, ...others} = themeProps;
+      const { forwardedRef, ...others } = themeProps;
       return (
         (this.state.error && UIComponent.defaultProps?.renderError) || (
-          <WrappedComponent {...others} modifiers={modifiers} ref={forwardedRef}/>
+          <WrappedComponent {...others} modifiers={modifiers} ref={forwardedRef} />
         )
       );
     }
